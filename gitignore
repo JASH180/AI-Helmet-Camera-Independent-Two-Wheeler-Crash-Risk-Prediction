@@ -1,0 +1,35 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Large videos and raw datasets (link them in the README instead)
+dataset/ccd_videos/
+dataset/kaggle_videos/
+dataset/clips_output/
+dataset/raw_videos*/
+dataset/trimmed_videos/
+dataset/frames/
+dataset/archive/
+dataset/archive_extracted/
+archive_extracted/
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Pretrained weights (downloaded automatically by Ultralytics)
+*.pt
+
+# Live session files and backups
+dataset/live_ride_log.csv
+dataset/live_frame.jpg
+dataset/rides/
+dataset/*_before_relabel.csv
+
+# R and editor files
+.Rhistory
+.RData
+.RDataTmp
+.Rproj.user/
+.vscode/
